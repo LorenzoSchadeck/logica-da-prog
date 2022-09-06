@@ -1,0 +1,15 @@
+C:\Users\loren\source\repos\ProvaProva\bin\Debug\net6.0\ProvaProva.exe
+C:\Users\loren\source\repos\ProvaProva\bin\Debug\net6.0\ProvaProva.deps.json
+C:\Users\loren\source\repos\ProvaProva\bin\Debug\net6.0\ProvaProva.runtimeconfig.json
+C:\Users\loren\source\repos\ProvaProva\bin\Debug\net6.0\ProvaProva.dll
+C:\Users\loren\source\repos\ProvaProva\bin\Debug\net6.0\ProvaProva.pdb
+C:\Users\loren\source\repos\ProvaProva\obj\Debug\net6.0\ProvaProva.csproj.AssemblyReference.cache
+C:\Users\loren\source\repos\ProvaProva\obj\Debug\net6.0\ProvaProva.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loren\source\repos\ProvaProva\obj\Debug\net6.0\ProvaProva.AssemblyInfoInputs.cache
+C:\Users\loren\source\repos\ProvaProva\obj\Debug\net6.0\ProvaProva.AssemblyInfo.cs
+C:\Users\loren\source\repos\ProvaProva\obj\Debug\net6.0\ProvaProva.csproj.CoreCompileInputs.cache
+C:\Users\loren\source\repos\ProvaProva\obj\Debug\net6.0\ProvaProva.dll
+C:\Users\loren\source\repos\ProvaProva\obj\Debug\net6.0\refint\ProvaProva.dll
+C:\Users\loren\source\repos\ProvaProva\obj\Debug\net6.0\ProvaProva.pdb
+C:\Users\loren\source\repos\ProvaProva\obj\Debug\net6.0\ProvaProva.genruntimeconfig.cache
+C:\Users\loren\source\repos\ProvaProva\obj\Debug\net6.0\ref\ProvaProva.dll
