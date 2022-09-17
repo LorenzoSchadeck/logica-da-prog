@@ -1,0 +1,15 @@
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\bin\Debug\net6.0\Atividade 2 - Lgc da prog.exe
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\bin\Debug\net6.0\Atividade 2 - Lgc da prog.deps.json
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\bin\Debug\net6.0\Atividade 2 - Lgc da prog.runtimeconfig.json
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\bin\Debug\net6.0\Atividade 2 - Lgc da prog.dll
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\bin\Debug\net6.0\Atividade 2 - Lgc da prog.pdb
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\obj\Debug\net6.0\Atividade 2 - Lgc da prog.csproj.AssemblyReference.cache
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\obj\Debug\net6.0\Atividade 2 - Lgc da prog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\obj\Debug\net6.0\Atividade 2 - Lgc da prog.AssemblyInfoInputs.cache
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\obj\Debug\net6.0\Atividade 2 - Lgc da prog.AssemblyInfo.cs
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\obj\Debug\net6.0\Atividade 2 - Lgc da prog.csproj.CoreCompileInputs.cache
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\obj\Debug\net6.0\Atividade 2 - Lgc da prog.dll
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\obj\Debug\net6.0\refint\Atividade 2 - Lgc da prog.dll
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\obj\Debug\net6.0\Atividade 2 - Lgc da prog.pdb
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\obj\Debug\net6.0\Atividade 2 - Lgc da prog.genruntimeconfig.cache
+C:\Users\loren\source\repos\LorenzoSchadeck\L-gica-da-Programa-o\Atividade 2 - Lgc da prog\obj\Debug\net6.0\ref\Atividade 2 - Lgc da prog.dll
