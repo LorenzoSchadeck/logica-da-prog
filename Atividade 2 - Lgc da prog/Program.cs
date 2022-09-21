@@ -1,7 +1,5 @@
 ﻿//Dupla: Lorenzo Schadeck e Lucas Moretti
 
-static void Main(string[] args)
-{
     Console.WriteLine("Bem-vindo ao Knight's Adventure!!");
     Console.WriteLine("Como jogar:");
     Console.WriteLine("Use os números de 1 a 4 para escolher entre as opções e trilhar seu caminho.");
@@ -36,7 +34,21 @@ static void Main(string[] args)
         //1.1
 
         //Caminho 1.1
-        Cam11();
+        string[] escolhas2 = new string[4];
+
+        escolhas2[0] = "espada e escudo";
+        escolhas2[1] = "me escondo";
+        escolhas2[2] = "fujo";
+        escolhas2[3] = "arco e flecha";
+
+        Console.WriteLine("Uma alcateia surge em sua frente...");
+        Console.WriteLine("O que você faz?");
+
+        //O que o player faz?
+        Console.WriteLine("1" + ") Uso a " + escolhas2[0]);
+        Console.WriteLine("2" + ") " + escolhas2[1]);
+        Console.WriteLine("3" + ") " + escolhas2[2]);
+        Console.WriteLine("4" + ") Uso o " + escolhas2[3]);
 
         string choices2 = Convert.ToString(Console.ReadLine());
 
@@ -45,7 +57,21 @@ static void Main(string[] args)
             Console.WriteLine("voce derrota as bestas, e recebe um pote com mel");
 
             //Caminho 2.1
-            Cam21();
+            string[] escolhas4 = new string[4];
+
+            escolhas4[0] = "espada";
+            escolhas4[1] = "mel";
+            escolhas4[2] = "fujo";
+            escolhas4[3] = "me escondo";
+
+            Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+            Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+            Console.WriteLine("3" + ") " + escolhas4[2]);
+            Console.WriteLine("4" + ") " + escolhas4[3]);
 
             string choices4 = Convert.ToString(Console.ReadLine());
 
@@ -53,7 +79,21 @@ static void Main(string[] args)
             {
                 Console.WriteLine("Você o dosmestica...");
                 //Caminho 3.1
-                Cam31();
+                string[] escolhas8 = new string[4];
+
+                escolhas8[0] = "urso";
+                escolhas8[1] = "espada encantada";
+                escolhas8[2] = "arco e flecha";
+                escolhas8[3] = "espada";
+
+                Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                 string choices8 = Convert.ToString(Console.ReadLine());
 
@@ -62,7 +102,21 @@ static void Main(string[] args)
                     Console.WriteLine("Seu urso se sacrifica por você, e derrota o grifo...");
 
                     //Final 1
-                    Final1();
+                    string[] escolhas10 = new string[4];
+
+                    escolhas10[0] = "espada encantada";
+                    escolhas10[1] = "Ataco furtivamente";
+                    escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                    escolhas10[3] = "Imploro pela minha vidaa";
+
+                    Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                    Console.WriteLine("2" + ") " + escolhas10[1]);
+                    Console.WriteLine("3" + ") " + escolhas10[2]);
+                    Console.WriteLine("4" + ") " + escolhas10[3]);
 
                     string choices10 = Convert.ToString(Console.ReadLine());
 
@@ -76,7 +130,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 1
-                        Final1();
+                        escolhas10 = new string[4];
+
+                        escolhas10[0] = "espada encantada";
+                        escolhas10[1] = "Ataco furtivamente";
+                        escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                        escolhas10[3] = "Imploro pela minha vidaa";
+
+                        Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                        Console.WriteLine("2" + ") " + escolhas10[1]);
+                        Console.WriteLine("3" + ") " + escolhas10[2]);
+                        Console.WriteLine("4" + ") " + escolhas10[3]);
 
                         choices10 = Convert.ToString(Console.ReadLine());
 
@@ -97,7 +165,21 @@ static void Main(string[] args)
                 Console.WriteLine("Morte");
 
                 //Caminho 2.1
-                Cam21();
+                escolhas4 = new string[4];
+
+                escolhas4[0] = "espada";
+                escolhas4[1] = "mel";
+                escolhas4[2] = "fujo";
+                escolhas4[3] = "me escondo";
+
+                Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+                Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+                Console.WriteLine("3" + ") " + escolhas4[2]);
+                Console.WriteLine("4" + ") " + escolhas4[3]);
 
                 choices4 = Convert.ToString(Console.ReadLine());
 
@@ -106,7 +188,21 @@ static void Main(string[] args)
                     Console.WriteLine("Você o dosmestica...");
 
                     //Caminho 3.1
-                    Cam31();
+                    string[] escolhas8 = new string[4];
+
+                    escolhas8[0] = "urso";
+                    escolhas8[1] = "espada encantada";
+                    escolhas8[2] = "arco e flecha";
+                    escolhas8[3] = "espada";
+
+                    Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                    Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                    Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                    Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                     string choices8 = Convert.ToString(Console.ReadLine());
 
@@ -178,7 +274,21 @@ static void Main(string[] args)
             Console.WriteLine("Morte");
 
             //Caminho 1.1
-            Cam11();
+            escolhas2 = new string[4];
+
+            escolhas2[0] = "espada e escudo";
+            escolhas2[1] = "me escondo";
+            escolhas2[2] = "fujo";
+            escolhas2[3] = "arco e flecha";
+
+            Console.WriteLine("Uma alcateia surge em sua frente...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas2[0]);
+            Console.WriteLine("2" + ") " + escolhas2[1]);
+            Console.WriteLine("3" + ") " + escolhas2[2]);
+            Console.WriteLine("4" + ") Uso o " + escolhas2[3]);
 
             choices2 = Convert.ToString(Console.ReadLine());
 
@@ -187,21 +297,63 @@ static void Main(string[] args)
                 Console.WriteLine("voce derrota as bestas, e recebe um pote com mel");
 
                 //Caminho 2.1
-                Cam21();
+                string[] escolhas4 = new string[4];
+
+                escolhas4[0] = "espada";
+                escolhas4[1] = "mel";
+                escolhas4[2] = "fujo";
+                escolhas4[3] = "me escondo";
+
+                Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+                Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+                Console.WriteLine("3" + ") " + escolhas4[2]);
+                Console.WriteLine("4" + ") " + escolhas4[3]);
 
                 string choices4 = Convert.ToString(Console.ReadLine());
 
                 if (choices4 == "2")
                 {
                     //Caminho 3.1
-                    Cam31();
+                    string[] escolhas8 = new string[4];
+
+                    escolhas8[0] = "urso";
+                    escolhas8[1] = "espada encantada";
+                    escolhas8[2] = "arco e flecha";
+                    escolhas8[3] = "espada";
+
+                    Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                    Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                    Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                    Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                     string choices8 = Convert.ToString(Console.ReadLine());
 
                     if (choices8 == "1" || choices8 == "2" || choices8 == "3" || choices8 == "4")
                     {
                         //Final 1
-                        Final1();
+                        string[] escolhas10 = new string[4];
+
+                        escolhas10[0] = "espada encantada";
+                        escolhas10[1] = "Ataco furtivamente";
+                        escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                        escolhas10[3] = "Imploro pela minha vidaa";
+
+                        Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                        Console.WriteLine("2" + ") " + escolhas10[1]);
+                        Console.WriteLine("3" + ") " + escolhas10[2]);
+                        Console.WriteLine("4" + ") " + escolhas10[3]);
 
                         string choices10 = Convert.ToString(Console.ReadLine());
 
@@ -214,7 +366,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 1
-                            Final1();
+                            escolhas10 = new string[4];
+
+                            escolhas10[0] = "espada encantada";
+                            escolhas10[1] = "Ataco furtivamente";
+                            escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                            escolhas10[3] = "Imploro pela minha vidaa";
+
+                            Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                            Console.WriteLine("2" + ") " + escolhas10[1]);
+                            Console.WriteLine("3" + ") " + escolhas10[2]);
+                            Console.WriteLine("4" + ") " + escolhas10[3]);
 
                             choices10 = Convert.ToString(Console.ReadLine());
 
@@ -238,7 +404,21 @@ static void Main(string[] args)
         //1.2
 
         //Caminho 1.2
-        Cam12();
+        string[] escolhas3 = new string[4];
+
+        escolhas3[0] = "espada/escudo";
+        escolhas3[1] = "me escondo";
+        escolhas3[2] = "fujo";
+        escolhas3[3] = "arco e flecha";
+
+        Console.WriteLine("Ao vir por aqui, você se depara com um bando de goblins...");
+        Console.WriteLine("O que você faz?");
+
+        //O que o player faz?
+        Console.WriteLine("1" + ") Uso a " + escolhas3[0]);
+        Console.WriteLine("2" + ") " + escolhas3[1]);
+        Console.WriteLine("3" + ") " + escolhas3[2]);
+        Console.WriteLine("4" + ") Uso " + escolhas3[3]);
 
         string choices3 = Convert.ToString(Console.ReadLine());
 
@@ -246,7 +426,21 @@ static void Main(string[] args)
         {
             Console.WriteLine("Você se livra dos goblins");
             //Caminho 2.2
-            Cam22();
+            string[] escolhas5 = new string[4];
+
+            escolhas5[0] = "arco e flecha";
+            escolhas5[1] = "Fujo";
+            escolhas5[2] = "espada/escudo";
+            escolhas5[3] = "Evito o urso";
+
+            Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+            Console.WriteLine("2" + ") " + escolhas5[1]);
+            Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+            Console.WriteLine("4" + ") " + escolhas5[3]);
 
             string choices5 = Convert.ToString(Console.ReadLine());
 
@@ -255,7 +449,21 @@ static void Main(string[] args)
                 Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                 //Caminho 3.2
-                Cam32();
+                string[] escolhas7 = new string[4];
+
+                escolhas7[0] = "espada encantada";
+                escolhas7[1] = "espada normal";
+                escolhas7[2] = "Fujo";
+                escolhas7[3] = "Morro";
+
+                Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                Console.WriteLine("3" + ") " + escolhas7[2]);
+                Console.WriteLine("4" + ") " + escolhas7[3]);
 
                 string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -264,7 +472,21 @@ static void Main(string[] args)
                     Console.WriteLine("Você os manda de volta para suas covas");
 
                     //Final 2
-                    Final2();
+                    string[] escolhas11 = new string[4];
+
+                    escolhas11[0] = "espada encantada";
+                    escolhas11[1] = "Me sacrifico";
+                    escolhas11[2] = "cajado do antigo Lich";
+                    escolhas11[3] = "Desisto";
+
+                    Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                    Console.WriteLine("2" + ") " + escolhas11[1]);
+                    Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                    Console.WriteLine("4" + ") " + escolhas11[3]);
 
                     string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -278,7 +500,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 2
-                        Final2();
+                        escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         choices11 = Convert.ToString(Console.ReadLine());
 
@@ -300,7 +536,21 @@ static void Main(string[] args)
                     Console.WriteLine("");
 
                     //Final 2
-                    Final2();
+                    string[] escolhas11 = new string[4];
+
+                    escolhas11[0] = "espada encantada";
+                    escolhas11[1] = "Me sacrifico";
+                    escolhas11[2] = "cajado do antigo Lich";
+                    escolhas11[3] = "Desisto";
+
+                    Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                    Console.WriteLine("2" + ") " + escolhas11[1]);
+                    Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                    Console.WriteLine("4" + ") " + escolhas11[3]);
 
                     string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -314,7 +564,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 2
-                        Final2();
+                        escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         choices11 = Convert.ToString(Console.ReadLine());
 
@@ -335,7 +599,21 @@ static void Main(string[] args)
                 Console.WriteLine("Morte");
 
                 //Caminho 2.2
-                Cam22();
+                escolhas5 = new string[4];
+
+                escolhas5[0] = "arco e flecha";
+                escolhas5[1] = "Fujo";
+                escolhas5[2] = "espada/escudo";
+                escolhas5[3] = "Evito o urso";
+
+                Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+                Console.WriteLine("2" + ") " + escolhas5[1]);
+                Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+                Console.WriteLine("4" + ") " + escolhas5[3]);
 
                 choices5 = Convert.ToString(Console.ReadLine());
 
@@ -344,7 +622,21 @@ static void Main(string[] args)
                     Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                     //Caminho 3.2
-                    Cam32();
+                    string[] escolhas7 = new string[4];
+
+                    escolhas7[0] = "espada encantada";
+                    escolhas7[1] = "espada normal";
+                    escolhas7[2] = "Fujo";
+                    escolhas7[3] = "Morro";
+
+                    Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                    Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                    Console.WriteLine("3" + ") " + escolhas7[2]);
+                    Console.WriteLine("4" + ") " + escolhas7[3]);
 
                     string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -353,7 +645,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -367,7 +673,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -387,7 +707,21 @@ static void Main(string[] args)
                         Console.WriteLine("morte");
 
                         //Caminho 3.2
-                        Cam32();
+                        escolhas7 = new string[4];
+
+                        escolhas7[0] = "espada encantada";
+                        escolhas7[1] = "espada normal";
+                        escolhas7[2] = "Fujo";
+                        escolhas7[3] = "Morro";
+
+                        Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                        Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                        Console.WriteLine("3" + ") " + escolhas7[2]);
+                        Console.WriteLine("4" + ") " + escolhas7[3]);
 
                         choices7 = Convert.ToString(Console.ReadLine());
 
@@ -396,7 +730,21 @@ static void Main(string[] args)
                             Console.WriteLine("Você os manda de volta para suas covas");
 
                             //Final 2
-                            Final2();
+                            string[] escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -410,7 +758,21 @@ static void Main(string[] args)
                                 Console.WriteLine("Morte");
 
                                 //Final 2
-                                Final2();
+                                escolhas11 = new string[4];
+
+                                escolhas11[0] = "espada encantada";
+                                escolhas11[1] = "Me sacrifico";
+                                escolhas11[2] = "cajado do antigo Lich";
+                                escolhas11[3] = "Desisto";
+
+                                Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                                Console.WriteLine("O que você faz?");
+
+                                //O que o player faz?
+                                Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                                Console.WriteLine("2" + ") " + escolhas11[1]);
+                                Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                                Console.WriteLine("4" + ") " + escolhas11[3]);
 
                                 choices11 = Convert.ToString(Console.ReadLine());
 
@@ -439,7 +801,21 @@ static void Main(string[] args)
             Console.WriteLine("Morte");
 
             //Caminho 1.2
-            Cam12();
+            escolhas3 = new string[4];
+
+            escolhas3[0] = "espada/escudo";
+            escolhas3[1] = "me escondo";
+            escolhas3[2] = "fujo";
+            escolhas3[3] = "arco e flecha";
+
+            Console.WriteLine("Ao vir por aqui, você se depara com um bando de goblins...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas3[0]);
+            Console.WriteLine("2" + ") " + escolhas3[1]);
+            Console.WriteLine("3" + ") " + escolhas3[2]);
+            Console.WriteLine("4" + ") Uso " + escolhas3[3]);
 
             choices3 = Convert.ToString(Console.ReadLine());
 
@@ -448,7 +824,21 @@ static void Main(string[] args)
                 Console.WriteLine("Você se livra dos goblins");
 
                 //Caminho 2.2
-                Cam22();
+                string[] escolhas5 = new string[4];
+
+                escolhas5[0] = "arco e flecha";
+                escolhas5[1] = "Fujo";
+                escolhas5[2] = "espada/escudo";
+                escolhas5[3] = "Evito o urso";
+
+                Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+                Console.WriteLine("2" + ") " + escolhas5[1]);
+                Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+                Console.WriteLine("4" + ") " + escolhas5[3]);
 
                 string choices5 = Convert.ToString(Console.ReadLine());
 
@@ -457,7 +847,21 @@ static void Main(string[] args)
                     Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                     //Caminho 3.2
-                    Cam32();
+                    string[] escolhas7 = new string[4];
+
+                    escolhas7[0] = "espada encantada";
+                    escolhas7[1] = "espada normal";
+                    escolhas7[2] = "Fujo";
+                    escolhas7[3] = "Morro";
+
+                    Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                    Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                    Console.WriteLine("3" + ") " + escolhas7[2]);
+                    Console.WriteLine("4" + ") " + escolhas7[3]);
 
                     string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -466,7 +870,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -480,7 +898,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -502,7 +934,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -516,7 +962,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -573,7 +1033,21 @@ static void Main(string[] args)
         //1.1
 
         //Caminho 1.1
-        Cam11();
+        string[] escolhas2 = new string[4];
+
+        escolhas2[0] = "espada e escudo";
+        escolhas2[1] = "me escondo";
+        escolhas2[2] = "fujo";
+        escolhas2[3] = "arco e flecha";
+
+        Console.WriteLine("Uma alcateia surge em sua frente...");
+        Console.WriteLine("O que você faz?");
+
+        //O que o player faz?
+        Console.WriteLine("1" + ") Uso a " + escolhas2[0]);
+        Console.WriteLine("2" + ") " + escolhas2[1]);
+        Console.WriteLine("3" + ") " + escolhas2[2]);
+        Console.WriteLine("4" + ") Uso o " + escolhas2[3]);
 
         string choices2 = Convert.ToString(Console.ReadLine());
 
@@ -582,7 +1056,21 @@ static void Main(string[] args)
             Console.WriteLine("voce derrota as bestas, e recebe um pote com mel");
 
             //Caminho 2.1
-            Cam21();
+            string[] escolhas4 = new string[4];
+
+            escolhas4[0] = "espada";
+            escolhas4[1] = "mel";
+            escolhas4[2] = "fujo";
+            escolhas4[3] = "me escondo";
+
+            Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+            Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+            Console.WriteLine("3" + ") " + escolhas4[2]);
+            Console.WriteLine("4" + ") " + escolhas4[3]);
 
             string choices4 = Convert.ToString(Console.ReadLine());
 
@@ -590,7 +1078,21 @@ static void Main(string[] args)
             {
                 Console.WriteLine("Você o dosmestica...");
                 //Caminho 3.1
-                Cam31();
+                string[] escolhas8 = new string[4];
+
+                escolhas8[0] = "urso";
+                escolhas8[1] = "espada encantada";
+                escolhas8[2] = "arco e flecha";
+                escolhas8[3] = "espada";
+
+                Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                 string choices8 = Convert.ToString(Console.ReadLine());
 
@@ -599,7 +1101,21 @@ static void Main(string[] args)
                     Console.WriteLine("Seu urso se sacrifica por você, e derrota o grifo...");
 
                     //Final 1
-                    Final1();
+                    string[] escolhas10 = new string[4];
+
+                    escolhas10[0] = "espada encantada";
+                    escolhas10[1] = "Ataco furtivamente";
+                    escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                    escolhas10[3] = "Imploro pela minha vidaa";
+
+                    Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                    Console.WriteLine("2" + ") " + escolhas10[1]);
+                    Console.WriteLine("3" + ") " + escolhas10[2]);
+                    Console.WriteLine("4" + ") " + escolhas10[3]);
 
                     string choices10 = Convert.ToString(Console.ReadLine());
 
@@ -613,7 +1129,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 1
-                        Final1();
+                        escolhas10 = new string[4];
+
+                        escolhas10[0] = "espada encantada";
+                        escolhas10[1] = "Ataco furtivamente";
+                        escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                        escolhas10[3] = "Imploro pela minha vidaa";
+
+                        Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                        Console.WriteLine("2" + ") " + escolhas10[1]);
+                        Console.WriteLine("3" + ") " + escolhas10[2]);
+                        Console.WriteLine("4" + ") " + escolhas10[3]);
 
                         choices10 = Convert.ToString(Console.ReadLine());
 
@@ -634,7 +1164,21 @@ static void Main(string[] args)
                 Console.WriteLine("Morte");
 
                 //Caminho 2.1
-                Cam21();
+                escolhas4 = new string[4];
+
+                escolhas4[0] = "espada";
+                escolhas4[1] = "mel";
+                escolhas4[2] = "fujo";
+                escolhas4[3] = "me escondo";
+
+                Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+                Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+                Console.WriteLine("3" + ") " + escolhas4[2]);
+                Console.WriteLine("4" + ") " + escolhas4[3]);
 
                 choices4 = Convert.ToString(Console.ReadLine());
 
@@ -643,7 +1187,21 @@ static void Main(string[] args)
                     Console.WriteLine("Você o dosmestica...");
 
                     //Caminho 3.1
-                    Cam31();
+                    string[] escolhas8 = new string[4];
+
+                    escolhas8[0] = "urso";
+                    escolhas8[1] = "espada encantada";
+                    escolhas8[2] = "arco e flecha";
+                    escolhas8[3] = "espada";
+
+                    Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                    Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                    Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                    Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                     string choices8 = Convert.ToString(Console.ReadLine());
 
@@ -652,7 +1210,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você derrota a fera...");
 
                         //Final 1
-                        Final1();
+                        string[] escolhas10 = new string[4];
+
+                        escolhas10[0] = "espada encantada";
+                        escolhas10[1] = "Ataco furtivamente";
+                        escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                        escolhas10[3] = "Imploro pela minha vidaa";
+
+                        Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                        Console.WriteLine("2" + ") " + escolhas10[1]);
+                        Console.WriteLine("3" + ") " + escolhas10[2]);
+                        Console.WriteLine("4" + ") " + escolhas10[3]);
 
                         string choices10 = Convert.ToString(Console.ReadLine());
 
@@ -666,7 +1238,14 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 1
-                            Final1();
+                            Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                            Console.WriteLine("2" + ") " + escolhas10[1]);
+                            Console.WriteLine("3" + ") " + escolhas10[2]);
+                            Console.WriteLine("4" + ") " + escolhas10[3]);
 
                             choices10 = Convert.ToString(Console.ReadLine());
 
@@ -694,7 +1273,21 @@ static void Main(string[] args)
             Console.WriteLine("Morte");
 
             //Caminho 1.1
-            Cam11();
+            escolhas2 = new string[4];
+
+            escolhas2[0] = "espada e escudo";
+            escolhas2[1] = "me escondo";
+            escolhas2[2] = "fujo";
+            escolhas2[3] = "arco e flecha";
+
+            Console.WriteLine("Uma alcateia surge em sua frente...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas2[0]);
+            Console.WriteLine("2" + ") " + escolhas2[1]);
+            Console.WriteLine("3" + ") " + escolhas2[2]);
+            Console.WriteLine("4" + ") Uso o " + escolhas2[3]);
 
             choices2 = Convert.ToString(Console.ReadLine());
 
@@ -703,21 +1296,63 @@ static void Main(string[] args)
                 Console.WriteLine("voce derrota as bestas, e recebe um pote com mel");
 
                 //Caminho 2.1
-                Cam21();
+                string[] escolhas4 = new string[4];
+
+                escolhas4[0] = "espada";
+                escolhas4[1] = "mel";
+                escolhas4[2] = "fujo";
+                escolhas4[3] = "me escondo";
+
+                Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+                Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+                Console.WriteLine("3" + ") " + escolhas4[2]);
+                Console.WriteLine("4" + ") " + escolhas4[3]);
 
                 string choices4 = Convert.ToString(Console.ReadLine());
 
                 if (choices4 == "2")
                 {
                     //Caminho 3.1
-                    Cam31();
+                    string[] escolhas8 = new string[4];
+
+                    escolhas8[0] = "urso";
+                    escolhas8[1] = "espada encantada";
+                    escolhas8[2] = "arco e flecha";
+                    escolhas8[3] = "espada";
+
+                    Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                    Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                    Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                    Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                     string choices8 = Convert.ToString(Console.ReadLine());
 
                     if (choices8 == "1" || choices8 == "2" || choices8 == "3" || choices8 == "4")
                     {
                         //Final 1
-                        Final1();
+                        string[] escolhas10 = new string[4];
+
+                        escolhas10[0] = "espada encantada";
+                        escolhas10[1] = "Ataco furtivamente";
+                        escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                        escolhas10[3] = "Imploro pela minha vidaa";
+
+                        Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                        Console.WriteLine("2" + ") " + escolhas10[1]);
+                        Console.WriteLine("3" + ") " + escolhas10[2]);
+                        Console.WriteLine("4" + ") " + escolhas10[3]);
 
                         string choices10 = Convert.ToString(Console.ReadLine());
 
@@ -730,7 +1365,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 1
-                            Final1();
+                            escolhas10 = new string[4];
+
+                            escolhas10[0] = "espada encantada";
+                            escolhas10[1] = "Ataco furtivamente";
+                            escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                            escolhas10[3] = "Imploro pela minha vidaa";
+
+                            Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                            Console.WriteLine("2" + ") " + escolhas10[1]);
+                            Console.WriteLine("3" + ") " + escolhas10[2]);
+                            Console.WriteLine("4" + ") " + escolhas10[3]);
 
                             choices10 = Convert.ToString(Console.ReadLine());
 
@@ -754,7 +1403,21 @@ static void Main(string[] args)
         //1.2
 
         //Caminho 1.2
-        Cam12();
+        string[] escolhas3 = new string[4];
+
+        escolhas3[0] = "espada/escudo";
+        escolhas3[1] = "me escondo";
+        escolhas3[2] = "fujo";
+        escolhas3[3] = "arco e flecha";
+
+        Console.WriteLine("Ao vir por aqui, você se depara com um bando de goblins...");
+        Console.WriteLine("O que você faz?");
+
+        //O que o player faz?
+        Console.WriteLine("1" + ") Uso a " + escolhas3[0]);
+        Console.WriteLine("2" + ") " + escolhas3[1]);
+        Console.WriteLine("3" + ") " + escolhas3[2]);
+        Console.WriteLine("4" + ") Uso " + escolhas3[3]);
 
         string choices3 = Convert.ToString(Console.ReadLine());
 
@@ -762,7 +1425,21 @@ static void Main(string[] args)
         {
             Console.WriteLine("Você se livra dos goblins");
             //Caminho 2.2
-            Cam22();
+            string[] escolhas5 = new string[4];
+
+            escolhas5[0] = "arco e flecha";
+            escolhas5[1] = "Fujo";
+            escolhas5[2] = "espada/escudo";
+            escolhas5[3] = "Evito o urso";
+
+            Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+            Console.WriteLine("2" + ") " + escolhas5[1]);
+            Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+            Console.WriteLine("4" + ") " + escolhas5[3]);
 
             string choices5 = Convert.ToString(Console.ReadLine());
 
@@ -771,7 +1448,21 @@ static void Main(string[] args)
                 Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                 //Caminho 3.2
-                Cam32();
+                string[] escolhas7 = new string[4];
+
+                escolhas7[0] = "espada encantada";
+                escolhas7[1] = "espada normal";
+                escolhas7[2] = "Fujo";
+                escolhas7[3] = "Morro";
+
+                Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                Console.WriteLine("3" + ") " + escolhas7[2]);
+                Console.WriteLine("4" + ") " + escolhas7[3]);
 
                 string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -780,7 +1471,21 @@ static void Main(string[] args)
                     Console.WriteLine("Você os manda de volta para suas covas");
 
                     //Final 2
-                    Final2();
+                    string[] escolhas11 = new string[4];
+
+                    escolhas11[0] = "espada encantada";
+                    escolhas11[1] = "Me sacrifico";
+                    escolhas11[2] = "cajado do antigo Lich";
+                    escolhas11[3] = "Desisto";
+
+                    Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                    Console.WriteLine("2" + ") " + escolhas11[1]);
+                    Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                    Console.WriteLine("4" + ") " + escolhas11[3]);
 
                     string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -794,7 +1499,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 2
-                        Final2();
+                        escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         choices11 = Convert.ToString(Console.ReadLine());
 
@@ -816,7 +1535,21 @@ static void Main(string[] args)
                     Console.WriteLine("");
 
                     //Final 2
-                    Final2();
+                    string[] escolhas11 = new string[4];
+
+                    escolhas11[0] = "espada encantada";
+                    escolhas11[1] = "Me sacrifico";
+                    escolhas11[2] = "cajado do antigo Lich";
+                    escolhas11[3] = "Desisto";
+
+                    Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                    Console.WriteLine("2" + ") " + escolhas11[1]);
+                    Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                    Console.WriteLine("4" + ") " + escolhas11[3]);
 
                     string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -830,7 +1563,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 2
-                        Final2();
+                        escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         choices11 = Convert.ToString(Console.ReadLine());
 
@@ -851,7 +1598,21 @@ static void Main(string[] args)
                 Console.WriteLine("Morte");
 
                 //Caminho 2.2
-                Cam22();
+                escolhas5 = new string[4];
+
+                escolhas5[0] = "arco e flecha";
+                escolhas5[1] = "Fujo";
+                escolhas5[2] = "espada/escudo";
+                escolhas5[3] = "Evito o urso";
+
+                Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+                Console.WriteLine("2" + ") " + escolhas5[1]);
+                Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+                Console.WriteLine("4" + ") " + escolhas5[3]);
 
                 choices5 = Convert.ToString(Console.ReadLine());
 
@@ -860,7 +1621,21 @@ static void Main(string[] args)
                     Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                     //Caminho 3.2
-                    Cam32();
+                    string[] escolhas7 = new string[4];
+
+                    escolhas7[0] = "espada encantada";
+                    escolhas7[1] = "espada normal";
+                    escolhas7[2] = "Fujo";
+                    escolhas7[3] = "Morro";
+
+                    Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                    Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                    Console.WriteLine("3" + ") " + escolhas7[2]);
+                    Console.WriteLine("4" + ") " + escolhas7[3]);
 
                     string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -869,7 +1644,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -883,7 +1672,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -903,7 +1706,21 @@ static void Main(string[] args)
                         Console.WriteLine("morte");
 
                         //Caminho 3.2
-                        Cam32();
+                        escolhas7 = new string[4];
+
+                        escolhas7[0] = "espada encantada";
+                        escolhas7[1] = "espada normal";
+                        escolhas7[2] = "Fujo";
+                        escolhas7[3] = "Morro";
+
+                        Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                        Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                        Console.WriteLine("3" + ") " + escolhas7[2]);
+                        Console.WriteLine("4" + ") " + escolhas7[3]);
 
                         choices7 = Convert.ToString(Console.ReadLine());
 
@@ -912,7 +1729,21 @@ static void Main(string[] args)
                             Console.WriteLine("Você os manda de volta para suas covas");
 
                             //Final 2
-                            Final2();
+                            string[] escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -926,7 +1757,21 @@ static void Main(string[] args)
                                 Console.WriteLine("Morte");
 
                                 //Final 2
-                                Final2();
+                                escolhas11 = new string[4];
+
+                                escolhas11[0] = "espada encantada";
+                                escolhas11[1] = "Me sacrifico";
+                                escolhas11[2] = "cajado do antigo Lich";
+                                escolhas11[3] = "Desisto";
+
+                                Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                                Console.WriteLine("O que você faz?");
+
+                                //O que o player faz?
+                                Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                                Console.WriteLine("2" + ") " + escolhas11[1]);
+                                Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                                Console.WriteLine("4" + ") " + escolhas11[3]);
 
                                 choices11 = Convert.ToString(Console.ReadLine());
 
@@ -955,7 +1800,21 @@ static void Main(string[] args)
             Console.WriteLine("Morte");
 
             //Caminho 1.2
-            Cam12();
+            escolhas3 = new string[4];
+
+            escolhas3[0] = "espada/escudo";
+            escolhas3[1] = "me escondo";
+            escolhas3[2] = "fujo";
+            escolhas3[3] = "arco e flecha";
+
+            Console.WriteLine("Ao vir por aqui, você se depara com um bando de goblins...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas3[0]);
+            Console.WriteLine("2" + ") " + escolhas3[1]);
+            Console.WriteLine("3" + ") " + escolhas3[2]);
+            Console.WriteLine("4" + ") Uso " + escolhas3[3]);
 
             choices3 = Convert.ToString(Console.ReadLine());
 
@@ -964,7 +1823,21 @@ static void Main(string[] args)
                 Console.WriteLine("Você se livra dos goblins");
 
                 //Caminho 2.2
-                Cam22();
+                string[] escolhas5 = new string[4];
+
+                escolhas5[0] = "arco e flecha";
+                escolhas5[1] = "Fujo";
+                escolhas5[2] = "espada/escudo";
+                escolhas5[3] = "Evito o urso";
+
+                Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+                Console.WriteLine("2" + ") " + escolhas5[1]);
+                Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+                Console.WriteLine("4" + ") " + escolhas5[3]);
 
                 string choices5 = Convert.ToString(Console.ReadLine());
 
@@ -973,7 +1846,21 @@ static void Main(string[] args)
                     Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                     //Caminho 3.2
-                    Cam32();
+                    string[] escolhas7 = new string[4];
+
+                    escolhas7[0] = "espada encantada";
+                    escolhas7[1] = "espada normal";
+                    escolhas7[2] = "Fujo";
+                    escolhas7[3] = "Morro";
+
+                    Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                    Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                    Console.WriteLine("3" + ") " + escolhas7[2]);
+                    Console.WriteLine("4" + ") " + escolhas7[3]);
 
                     string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -982,7 +1869,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -996,7 +1897,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1018,7 +1933,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1032,7 +1961,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1089,7 +2032,21 @@ static void Main(string[] args)
         //1.1
 
         //Caminho 1.1
-        Cam11();
+        string[] escolhas2 = new string[4];
+
+        escolhas2[0] = "espada e escudo";
+        escolhas2[1] = "me escondo";
+        escolhas2[2] = "fujo";
+        escolhas2[3] = "arco e flecha";
+
+        Console.WriteLine("Uma alcateia surge em sua frente...");
+        Console.WriteLine("O que você faz?");
+
+        //O que o player faz?
+        Console.WriteLine("1" + ") Uso a " + escolhas2[0]);
+        Console.WriteLine("2" + ") " + escolhas2[1]);
+        Console.WriteLine("3" + ") " + escolhas2[2]);
+        Console.WriteLine("4" + ") Uso o " + escolhas2[3]);
 
         string choices2 = Convert.ToString(Console.ReadLine());
 
@@ -1098,7 +2055,21 @@ static void Main(string[] args)
             Console.WriteLine("voce derrota as bestas, e recebe um pote com mel");
 
             //Caminho 2.1
-            Cam21();
+            string[] escolhas4 = new string[4];
+
+            escolhas4[0] = "espada";
+            escolhas4[1] = "mel";
+            escolhas4[2] = "fujo";
+            escolhas4[3] = "me escondo";
+
+            Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+            Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+            Console.WriteLine("3" + ") " + escolhas4[2]);
+            Console.WriteLine("4" + ") " + escolhas4[3]);
 
             string choices4 = Convert.ToString(Console.ReadLine());
 
@@ -1106,7 +2077,21 @@ static void Main(string[] args)
             {
                 Console.WriteLine("Você o dosmestica...");
                 //Caminho 3.1
-                Cam31();
+                string[] escolhas8 = new string[4];
+
+                escolhas8[0] = "urso";
+                escolhas8[1] = "espada encantada";
+                escolhas8[2] = "arco e flecha";
+                escolhas8[3] = "espada";
+
+                Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                 string choices8 = Convert.ToString(Console.ReadLine());
 
@@ -1115,7 +2100,21 @@ static void Main(string[] args)
                     Console.WriteLine("Seu urso se sacrifica por você, e derrota o grifo...");
 
                     //Final 1
-                    Final1();
+                    string[] escolhas10 = new string[4];
+
+                    escolhas10[0] = "espada encantada";
+                    escolhas10[1] = "Ataco furtivamente";
+                    escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                    escolhas10[3] = "Imploro pela minha vidaa";
+
+                    Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                    Console.WriteLine("2" + ") " + escolhas10[1]);
+                    Console.WriteLine("3" + ") " + escolhas10[2]);
+                    Console.WriteLine("4" + ") " + escolhas10[3]);
 
                     string choices10 = Convert.ToString(Console.ReadLine());
 
@@ -1129,7 +2128,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 1
-                        Final1();
+                        escolhas10 = new string[4];
+
+                        escolhas10[0] = "espada encantada";
+                        escolhas10[1] = "Ataco furtivamente";
+                        escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                        escolhas10[3] = "Imploro pela minha vidaa";
+
+                        Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                        Console.WriteLine("2" + ") " + escolhas10[1]);
+                        Console.WriteLine("3" + ") " + escolhas10[2]);
+                        Console.WriteLine("4" + ") " + escolhas10[3]);
 
                         choices10 = Convert.ToString(Console.ReadLine());
 
@@ -1150,7 +2163,21 @@ static void Main(string[] args)
                 Console.WriteLine("Morte");
 
                 //Caminho 2.1
-                Cam21();
+                escolhas4 = new string[4];
+
+                escolhas4[0] = "espada";
+                escolhas4[1] = "mel";
+                escolhas4[2] = "fujo";
+                escolhas4[3] = "me escondo";
+
+                Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+                Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+                Console.WriteLine("3" + ") " + escolhas4[2]);
+                Console.WriteLine("4" + ") " + escolhas4[3]);
 
                 choices4 = Convert.ToString(Console.ReadLine());
 
@@ -1159,7 +2186,21 @@ static void Main(string[] args)
                     Console.WriteLine("Você o dosmestica...");
 
                     //Caminho 3.1
-                    Cam31();
+                    string[] escolhas8 = new string[4];
+
+                    escolhas8[0] = "urso";
+                    escolhas8[1] = "espada encantada";
+                    escolhas8[2] = "arco e flecha";
+                    escolhas8[3] = "espada";
+
+                    Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                    Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                    Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                    Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                     string choices8 = Convert.ToString(Console.ReadLine());
 
@@ -1231,7 +2272,21 @@ static void Main(string[] args)
             Console.WriteLine("Morte");
 
             //Caminho 1.1
-            Cam11();
+            escolhas2 = new string[4];
+
+            escolhas2[0] = "espada e escudo";
+            escolhas2[1] = "me escondo";
+            escolhas2[2] = "fujo";
+            escolhas2[3] = "arco e flecha";
+
+            Console.WriteLine("Uma alcateia surge em sua frente...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas2[0]);
+            Console.WriteLine("2" + ") " + escolhas2[1]);
+            Console.WriteLine("3" + ") " + escolhas2[2]);
+            Console.WriteLine("4" + ") Uso o " + escolhas2[3]);
 
             choices2 = Convert.ToString(Console.ReadLine());
 
@@ -1240,21 +2295,63 @@ static void Main(string[] args)
                 Console.WriteLine("voce derrota as bestas, e recebe um pote com mel");
 
                 //Caminho 2.1
-                Cam21();
+                string[] escolhas4 = new string[4];
+
+                escolhas4[0] = "espada";
+                escolhas4[1] = "mel";
+                escolhas4[2] = "fujo";
+                escolhas4[3] = "me escondo";
+
+                Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+                Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+                Console.WriteLine("3" + ") " + escolhas4[2]);
+                Console.WriteLine("4" + ") " + escolhas4[3]);
 
                 string choices4 = Convert.ToString(Console.ReadLine());
 
                 if (choices4 == "2")
                 {
                     //Caminho 3.1
-                    Cam31();
+                    string[] escolhas8 = new string[4];
+
+                    escolhas8[0] = "urso";
+                    escolhas8[1] = "espada encantada";
+                    escolhas8[2] = "arco e flecha";
+                    escolhas8[3] = "espada";
+
+                    Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                    Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                    Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                    Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                     string choices8 = Convert.ToString(Console.ReadLine());
 
                     if (choices8 == "1" || choices8 == "2" || choices8 == "3" || choices8 == "4")
                     {
                         //Final 1
-                        Final1();
+                        string[] escolhas10 = new string[4];
+
+                        escolhas10[0] = "espada encantada";
+                        escolhas10[1] = "Ataco furtivamente";
+                        escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                        escolhas10[3] = "Imploro pela minha vidaa";
+
+                        Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                        Console.WriteLine("2" + ") " + escolhas10[1]);
+                        Console.WriteLine("3" + ") " + escolhas10[2]);
+                        Console.WriteLine("4" + ") " + escolhas10[3]);
 
                         string choices10 = Convert.ToString(Console.ReadLine());
 
@@ -1267,7 +2364,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 1
-                            Final1();
+                            escolhas10 = new string[4];
+
+                            escolhas10[0] = "espada encantada";
+                            escolhas10[1] = "Ataco furtivamente";
+                            escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                            escolhas10[3] = "Imploro pela minha vidaa";
+
+                            Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                            Console.WriteLine("2" + ") " + escolhas10[1]);
+                            Console.WriteLine("3" + ") " + escolhas10[2]);
+                            Console.WriteLine("4" + ") " + escolhas10[3]);
 
                             choices10 = Convert.ToString(Console.ReadLine());
 
@@ -1291,7 +2402,21 @@ static void Main(string[] args)
         //1.2
 
         //Caminho 1.2
-        Cam12();
+        string[] escolhas3 = new string[4];
+
+        escolhas3[0] = "espada/escudo";
+        escolhas3[1] = "me escondo";
+        escolhas3[2] = "fujo";
+        escolhas3[3] = "arco e flecha";
+
+        Console.WriteLine("Ao vir por aqui, você se depara com um bando de goblins...");
+        Console.WriteLine("O que você faz?");
+
+        //O que o player faz?
+        Console.WriteLine("1" + ") Uso a " + escolhas3[0]);
+        Console.WriteLine("2" + ") " + escolhas3[1]);
+        Console.WriteLine("3" + ") " + escolhas3[2]);
+        Console.WriteLine("4" + ") Uso " + escolhas3[3]);
 
         string choices3 = Convert.ToString(Console.ReadLine());
 
@@ -1299,7 +2424,21 @@ static void Main(string[] args)
         {
             Console.WriteLine("Você se livra dos goblins");
             //Caminho 2.2
-            Cam22();
+            string[] escolhas5 = new string[4];
+
+            escolhas5[0] = "arco e flecha";
+            escolhas5[1] = "Fujo";
+            escolhas5[2] = "espada/escudo";
+            escolhas5[3] = "Evito o urso";
+
+            Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+            Console.WriteLine("2" + ") " + escolhas5[1]);
+            Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+            Console.WriteLine("4" + ") " + escolhas5[3]);
 
             string choices5 = Convert.ToString(Console.ReadLine());
 
@@ -1308,7 +2447,21 @@ static void Main(string[] args)
                 Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                 //Caminho 3.2
-                Cam32();
+                string[] escolhas7 = new string[4];
+
+                escolhas7[0] = "espada encantada";
+                escolhas7[1] = "espada normal";
+                escolhas7[2] = "Fujo";
+                escolhas7[3] = "Morro";
+
+                Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                Console.WriteLine("3" + ") " + escolhas7[2]);
+                Console.WriteLine("4" + ") " + escolhas7[3]);
 
                 string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -1317,7 +2470,21 @@ static void Main(string[] args)
                     Console.WriteLine("Você os manda de volta para suas covas");
 
                     //Final 2
-                    Final2();
+                    string[] escolhas11 = new string[4];
+
+                    escolhas11[0] = "espada encantada";
+                    escolhas11[1] = "Me sacrifico";
+                    escolhas11[2] = "cajado do antigo Lich";
+                    escolhas11[3] = "Desisto";
+
+                    Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                    Console.WriteLine("2" + ") " + escolhas11[1]);
+                    Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                    Console.WriteLine("4" + ") " + escolhas11[3]);
 
                     string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1331,7 +2498,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 2
-                        Final2();
+                        escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1353,7 +2534,21 @@ static void Main(string[] args)
                     Console.WriteLine("");
 
                     //Final 2
-                    Final2();
+                    string[] escolhas11 = new string[4];
+
+                    escolhas11[0] = "espada encantada";
+                    escolhas11[1] = "Me sacrifico";
+                    escolhas11[2] = "cajado do antigo Lich";
+                    escolhas11[3] = "Desisto";
+
+                    Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                    Console.WriteLine("2" + ") " + escolhas11[1]);
+                    Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                    Console.WriteLine("4" + ") " + escolhas11[3]);
 
                     string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1367,7 +2562,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 2
-                        Final2();
+                        escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1388,7 +2597,21 @@ static void Main(string[] args)
                 Console.WriteLine("Morte");
 
                 //Caminho 2.2
-                Cam22();
+                escolhas5 = new string[4];
+
+                escolhas5[0] = "arco e flecha";
+                escolhas5[1] = "Fujo";
+                escolhas5[2] = "espada/escudo";
+                escolhas5[3] = "Evito o urso";
+
+                Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+                Console.WriteLine("2" + ") " + escolhas5[1]);
+                Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+                Console.WriteLine("4" + ") " + escolhas5[3]);
 
                 choices5 = Convert.ToString(Console.ReadLine());
 
@@ -1397,7 +2620,21 @@ static void Main(string[] args)
                     Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                     //Caminho 3.2
-                    Cam32();
+                    string[] escolhas7 = new string[4];
+
+                    escolhas7[0] = "espada encantada";
+                    escolhas7[1] = "espada normal";
+                    escolhas7[2] = "Fujo";
+                    escolhas7[3] = "Morro";
+
+                    Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                    Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                    Console.WriteLine("3" + ") " + escolhas7[2]);
+                    Console.WriteLine("4" + ") " + escolhas7[3]);
 
                     string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -1406,7 +2643,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1420,7 +2671,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1440,7 +2705,21 @@ static void Main(string[] args)
                         Console.WriteLine("morte");
 
                         //Caminho 3.2
-                        Cam32();
+                        escolhas7 = new string[4];
+
+                        escolhas7[0] = "espada encantada";
+                        escolhas7[1] = "espada normal";
+                        escolhas7[2] = "Fujo";
+                        escolhas7[3] = "Morro";
+
+                        Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                        Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                        Console.WriteLine("3" + ") " + escolhas7[2]);
+                        Console.WriteLine("4" + ") " + escolhas7[3]);
 
                         choices7 = Convert.ToString(Console.ReadLine());
 
@@ -1449,7 +2728,21 @@ static void Main(string[] args)
                             Console.WriteLine("Você os manda de volta para suas covas");
 
                             //Final 2
-                            Final2();
+                            string[] escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1463,7 +2756,21 @@ static void Main(string[] args)
                                 Console.WriteLine("Morte");
 
                                 //Final 2
-                                Final2();
+                                escolhas11 = new string[4];
+
+                                escolhas11[0] = "espada encantada";
+                                escolhas11[1] = "Me sacrifico";
+                                escolhas11[2] = "cajado do antigo Lich";
+                                escolhas11[3] = "Desisto";
+
+                                Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                                Console.WriteLine("O que você faz?");
+
+                                //O que o player faz?
+                                Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                                Console.WriteLine("2" + ") " + escolhas11[1]);
+                                Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                                Console.WriteLine("4" + ") " + escolhas11[3]);
 
                                 choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1492,7 +2799,21 @@ static void Main(string[] args)
             Console.WriteLine("Morte");
 
             //Caminho 1.2
-            Cam12();
+            escolhas3 = new string[4];
+
+            escolhas3[0] = "espada/escudo";
+            escolhas3[1] = "me escondo";
+            escolhas3[2] = "fujo";
+            escolhas3[3] = "arco e flecha";
+
+            Console.WriteLine("Ao vir por aqui, você se depara com um bando de goblins...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas3[0]);
+            Console.WriteLine("2" + ") " + escolhas3[1]);
+            Console.WriteLine("3" + ") " + escolhas3[2]);
+            Console.WriteLine("4" + ") Uso " + escolhas3[3]);
 
             choices3 = Convert.ToString(Console.ReadLine());
 
@@ -1501,7 +2822,21 @@ static void Main(string[] args)
                 Console.WriteLine("Você se livra dos goblins");
 
                 //Caminho 2.2
-                Cam22();
+                string[] escolhas5 = new string[4];
+
+                escolhas5[0] = "arco e flecha";
+                escolhas5[1] = "Fujo";
+                escolhas5[2] = "espada/escudo";
+                escolhas5[3] = "Evito o urso";
+
+                Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+                Console.WriteLine("2" + ") " + escolhas5[1]);
+                Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+                Console.WriteLine("4" + ") " + escolhas5[3]);
 
                 string choices5 = Convert.ToString(Console.ReadLine());
 
@@ -1510,7 +2845,21 @@ static void Main(string[] args)
                     Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                     //Caminho 3.2
-                    Cam32();
+                    string[] escolhas7 = new string[4];
+
+                    escolhas7[0] = "espada encantada";
+                    escolhas7[1] = "espada normal";
+                    escolhas7[2] = "Fujo";
+                    escolhas7[3] = "Morro";
+
+                    Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                    Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                    Console.WriteLine("3" + ") " + escolhas7[2]);
+                    Console.WriteLine("4" + ") " + escolhas7[3]);
 
                     string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -1519,7 +2868,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1533,7 +2896,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1555,7 +2932,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1569,7 +2960,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1626,7 +3031,21 @@ static void Main(string[] args)
         //1.1
 
         //Caminho 1.1
-        Cam11();
+        string[] escolhas2 = new string[4];
+
+        escolhas2[0] = "espada e escudo";
+        escolhas2[1] = "me escondo";
+        escolhas2[2] = "fujo";
+        escolhas2[3] = "arco e flecha";
+
+        Console.WriteLine("Uma alcateia surge em sua frente...");
+        Console.WriteLine("O que você faz?");
+
+        //O que o player faz?
+        Console.WriteLine("1" + ") Uso a " + escolhas2[0]);
+        Console.WriteLine("2" + ") " + escolhas2[1]);
+        Console.WriteLine("3" + ") " + escolhas2[2]);
+        Console.WriteLine("4" + ") Uso o " + escolhas2[3]);
 
         string choices2 = Convert.ToString(Console.ReadLine());
 
@@ -1635,7 +3054,21 @@ static void Main(string[] args)
             Console.WriteLine("voce derrota as bestas, e recebe um pote com mel");
 
             //Caminho 2.1
-            Cam21();
+            string[] escolhas4 = new string[4];
+
+            escolhas4[0] = "espada";
+            escolhas4[1] = "mel";
+            escolhas4[2] = "fujo";
+            escolhas4[3] = "me escondo";
+
+            Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+            Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+            Console.WriteLine("3" + ") " + escolhas4[2]);
+            Console.WriteLine("4" + ") " + escolhas4[3]);
 
             string choices4 = Convert.ToString(Console.ReadLine());
 
@@ -1643,7 +3076,21 @@ static void Main(string[] args)
             {
                 Console.WriteLine("Você o dosmestica...");
                 //Caminho 3.1
-                Cam31();
+                string[] escolhas8 = new string[4];
+
+                escolhas8[0] = "urso";
+                escolhas8[1] = "espada encantada";
+                escolhas8[2] = "arco e flecha";
+                escolhas8[3] = "espada";
+
+                Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                 string choices8 = Convert.ToString(Console.ReadLine());
 
@@ -1652,7 +3099,21 @@ static void Main(string[] args)
                     Console.WriteLine("Seu urso se sacrifica por você, e derrota o grifo...");
 
                     //Final 1
-                    Final1();
+                    string[] escolhas10 = new string[4];
+
+                    escolhas10[0] = "espada encantada";
+                    escolhas10[1] = "Ataco furtivamente";
+                    escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                    escolhas10[3] = "Imploro pela minha vidaa";
+
+                    Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                    Console.WriteLine("2" + ") " + escolhas10[1]);
+                    Console.WriteLine("3" + ") " + escolhas10[2]);
+                    Console.WriteLine("4" + ") " + escolhas10[3]);
 
                     string choices10 = Convert.ToString(Console.ReadLine());
 
@@ -1666,7 +3127,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 1
-                        Final1();
+                        escolhas10 = new string[4];
+
+                        escolhas10[0] = "espada encantada";
+                        escolhas10[1] = "Ataco furtivamente";
+                        escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                        escolhas10[3] = "Imploro pela minha vidaa";
+
+                        Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                        Console.WriteLine("2" + ") " + escolhas10[1]);
+                        Console.WriteLine("3" + ") " + escolhas10[2]);
+                        Console.WriteLine("4" + ") " + escolhas10[3]);
 
                         choices10 = Convert.ToString(Console.ReadLine());
 
@@ -1687,7 +3162,21 @@ static void Main(string[] args)
                 Console.WriteLine("Morte");
 
                 //Caminho 2.1
-                Cam21();
+                escolhas4 = new string[4];
+
+                escolhas4[0] = "espada";
+                escolhas4[1] = "mel";
+                escolhas4[2] = "fujo";
+                escolhas4[3] = "me escondo";
+
+                Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+                Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+                Console.WriteLine("3" + ") " + escolhas4[2]);
+                Console.WriteLine("4" + ") " + escolhas4[3]);
 
                 choices4 = Convert.ToString(Console.ReadLine());
 
@@ -1696,7 +3185,21 @@ static void Main(string[] args)
                     Console.WriteLine("Você o dosmestica...");
 
                     //Caminho 3.1
-                    Cam31();
+                    string[] escolhas8 = new string[4];
+
+                    escolhas8[0] = "urso";
+                    escolhas8[1] = "espada encantada";
+                    escolhas8[2] = "arco e flecha";
+                    escolhas8[3] = "espada";
+
+                    Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                    Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                    Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                    Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                     string choices8 = Convert.ToString(Console.ReadLine());
 
@@ -1768,7 +3271,21 @@ static void Main(string[] args)
             Console.WriteLine("Morte");
 
             //Caminho 1.1
-            Cam11();
+            escolhas2 = new string[4];
+
+            escolhas2[0] = "espada e escudo";
+            escolhas2[1] = "me escondo";
+            escolhas2[2] = "fujo";
+            escolhas2[3] = "arco e flecha";
+
+            Console.WriteLine("Uma alcateia surge em sua frente...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas2[0]);
+            Console.WriteLine("2" + ") " + escolhas2[1]);
+            Console.WriteLine("3" + ") " + escolhas2[2]);
+            Console.WriteLine("4" + ") Uso o " + escolhas2[3]);
 
             choices2 = Convert.ToString(Console.ReadLine());
 
@@ -1777,21 +3294,63 @@ static void Main(string[] args)
                 Console.WriteLine("voce derrota as bestas, e recebe um pote com mel");
 
                 //Caminho 2.1
-                Cam21();
+                string[] escolhas4 = new string[4];
+
+                escolhas4[0] = "espada";
+                escolhas4[1] = "mel";
+                escolhas4[2] = "fujo";
+                escolhas4[3] = "me escondo";
+
+                Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
+                Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
+                Console.WriteLine("3" + ") " + escolhas4[2]);
+                Console.WriteLine("4" + ") " + escolhas4[3]);
 
                 string choices4 = Convert.ToString(Console.ReadLine());
 
                 if (choices4 == "2")
                 {
                     //Caminho 3.1
-                    Cam31();
+                    string[] escolhas8 = new string[4];
+
+                    escolhas8[0] = "urso";
+                    escolhas8[1] = "espada encantada";
+                    escolhas8[2] = "arco e flecha";
+                    escolhas8[3] = "espada";
+
+                    Console.WriteLine("Nos céus, um grifo avança em sua direção...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso " + escolhas8[0]);
+                    Console.WriteLine("2" + ") Uso " + escolhas8[1]);
+                    Console.WriteLine("3" + ") Uso " + escolhas8[2]);
+                    Console.WriteLine("4" + ") Uso " + escolhas8[3]);
 
                     string choices8 = Convert.ToString(Console.ReadLine());
 
                     if (choices8 == "1" || choices8 == "2" || choices8 == "3" || choices8 == "4")
                     {
                         //Final 1
-                        Final1();
+                        string[] escolhas10 = new string[4];
+
+                        escolhas10[0] = "espada encantada";
+                        escolhas10[1] = "Ataco furtivamente";
+                        escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                        escolhas10[3] = "Imploro pela minha vidaa";
+
+                        Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                        Console.WriteLine("2" + ") " + escolhas10[1]);
+                        Console.WriteLine("3" + ") " + escolhas10[2]);
+                        Console.WriteLine("4" + ") " + escolhas10[3]);
 
                         string choices10 = Convert.ToString(Console.ReadLine());
 
@@ -1804,7 +3363,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 1
-                            Final1();
+                            escolhas10 = new string[4];
+
+                            escolhas10[0] = "espada encantada";
+                            escolhas10[1] = "Ataco furtivamente";
+                            escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
+                            escolhas10[3] = "Imploro pela minha vidaa";
+
+                            Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
+                            Console.WriteLine("2" + ") " + escolhas10[1]);
+                            Console.WriteLine("3" + ") " + escolhas10[2]);
+                            Console.WriteLine("4" + ") " + escolhas10[3]);
 
                             choices10 = Convert.ToString(Console.ReadLine());
 
@@ -1828,7 +3401,21 @@ static void Main(string[] args)
         //1.2
 
         //Caminho 1.2
-        Cam12();
+        string[] escolhas3 = new string[4];
+
+        escolhas3[0] = "espada/escudo";
+        escolhas3[1] = "me escondo";
+        escolhas3[2] = "fujo";
+        escolhas3[3] = "arco e flecha";
+
+        Console.WriteLine("Ao vir por aqui, você se depara com um bando de goblins...");
+        Console.WriteLine("O que você faz?");
+
+        //O que o player faz?
+        Console.WriteLine("1" + ") Uso a " + escolhas3[0]);
+        Console.WriteLine("2" + ") " + escolhas3[1]);
+        Console.WriteLine("3" + ") " + escolhas3[2]);
+        Console.WriteLine("4" + ") Uso " + escolhas3[3]);
 
         string choices3 = Convert.ToString(Console.ReadLine());
 
@@ -1836,7 +3423,21 @@ static void Main(string[] args)
         {
             Console.WriteLine("Você se livra dos goblins");
             //Caminho 2.2
-            Cam22();
+            string[] escolhas5 = new string[4];
+
+            escolhas5[0] = "arco e flecha";
+            escolhas5[1] = "Fujo";
+            escolhas5[2] = "espada/escudo";
+            escolhas5[3] = "Evito o urso";
+
+            Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+            Console.WriteLine("2" + ") " + escolhas5[1]);
+            Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+            Console.WriteLine("4" + ") " + escolhas5[3]);
 
             string choices5 = Convert.ToString(Console.ReadLine());
 
@@ -1845,7 +3446,21 @@ static void Main(string[] args)
                 Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                 //Caminho 3.2
-                Cam32();
+                string[] escolhas7 = new string[4];
+
+                escolhas7[0] = "espada encantada";
+                escolhas7[1] = "espada normal";
+                escolhas7[2] = "Fujo";
+                escolhas7[3] = "Morro";
+
+                Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                Console.WriteLine("3" + ") " + escolhas7[2]);
+                Console.WriteLine("4" + ") " + escolhas7[3]);
 
                 string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -1854,7 +3469,21 @@ static void Main(string[] args)
                     Console.WriteLine("Você os manda de volta para suas covas");
 
                     //Final 2
-                    Final2();
+                    string[] escolhas11 = new string[4];
+
+                    escolhas11[0] = "espada encantada";
+                    escolhas11[1] = "Me sacrifico";
+                    escolhas11[2] = "cajado do antigo Lich";
+                    escolhas11[3] = "Desisto";
+
+                    Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                    Console.WriteLine("2" + ") " + escolhas11[1]);
+                    Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                    Console.WriteLine("4" + ") " + escolhas11[3]);
 
                     string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1868,7 +3497,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 2
-                        Final2();
+                        escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1890,7 +3533,21 @@ static void Main(string[] args)
                     Console.WriteLine("");
 
                     //Final 2
-                    Final2();
+                    string[] escolhas11 = new string[4];
+
+                    escolhas11[0] = "espada encantada";
+                    escolhas11[1] = "Me sacrifico";
+                    escolhas11[2] = "cajado do antigo Lich";
+                    escolhas11[3] = "Desisto";
+
+                    Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                    Console.WriteLine("2" + ") " + escolhas11[1]);
+                    Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                    Console.WriteLine("4" + ") " + escolhas11[3]);
 
                     string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1904,7 +3561,21 @@ static void Main(string[] args)
                         Console.WriteLine("Morte");
 
                         //Final 2
-                        Final2();
+                        escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1925,7 +3596,21 @@ static void Main(string[] args)
                 Console.WriteLine("Morte");
 
                 //Caminho 2.2
-                Cam22();
+                escolhas5 = new string[4];
+
+                escolhas5[0] = "arco e flecha";
+                escolhas5[1] = "Fujo";
+                escolhas5[2] = "espada/escudo";
+                escolhas5[3] = "Evito o urso";
+
+                Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+                Console.WriteLine("2" + ") " + escolhas5[1]);
+                Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+                Console.WriteLine("4" + ") " + escolhas5[3]);
 
                 choices5 = Convert.ToString(Console.ReadLine());
 
@@ -1934,7 +3619,21 @@ static void Main(string[] args)
                     Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                     //Caminho 3.2
-                    Cam32();
+                    string[] escolhas7 = new string[4];
+
+                    escolhas7[0] = "espada encantada";
+                    escolhas7[1] = "espada normal";
+                    escolhas7[2] = "Fujo";
+                    escolhas7[3] = "Morro";
+
+                    Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                    Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                    Console.WriteLine("3" + ") " + escolhas7[2]);
+                    Console.WriteLine("4" + ") " + escolhas7[3]);
 
                     string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -1943,7 +3642,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1957,7 +3670,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -1977,7 +3704,21 @@ static void Main(string[] args)
                         Console.WriteLine("morte");
 
                         //Caminho 3.2
-                        Cam32();
+                        escolhas7 = new string[4];
+
+                        escolhas7[0] = "espada encantada";
+                        escolhas7[1] = "espada normal";
+                        escolhas7[2] = "Fujo";
+                        escolhas7[3] = "Morro";
+
+                        Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                        Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                        Console.WriteLine("3" + ") " + escolhas7[2]);
+                        Console.WriteLine("4" + ") " + escolhas7[3]);
 
                         choices7 = Convert.ToString(Console.ReadLine());
 
@@ -1986,7 +3727,21 @@ static void Main(string[] args)
                             Console.WriteLine("Você os manda de volta para suas covas");
 
                             //Final 2
-                            Final2();
+                            string[] escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -2000,7 +3755,21 @@ static void Main(string[] args)
                                 Console.WriteLine("Morte");
 
                                 //Final 2
-                                Final2();
+                                escolhas11 = new string[4];
+
+                                escolhas11[0] = "espada encantada";
+                                escolhas11[1] = "Me sacrifico";
+                                escolhas11[2] = "cajado do antigo Lich";
+                                escolhas11[3] = "Desisto";
+
+                                Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                                Console.WriteLine("O que você faz?");
+
+                                //O que o player faz?
+                                Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                                Console.WriteLine("2" + ") " + escolhas11[1]);
+                                Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                                Console.WriteLine("4" + ") " + escolhas11[3]);
 
                                 choices11 = Convert.ToString(Console.ReadLine());
 
@@ -2029,7 +3798,21 @@ static void Main(string[] args)
             Console.WriteLine("Morte");
 
             //Caminho 1.2
-            Cam12();
+            escolhas3 = new string[4];
+
+            escolhas3[0] = "espada/escudo";
+            escolhas3[1] = "me escondo";
+            escolhas3[2] = "fujo";
+            escolhas3[3] = "arco e flecha";
+
+            Console.WriteLine("Ao vir por aqui, você se depara com um bando de goblins...");
+            Console.WriteLine("O que você faz?");
+
+            //O que o player faz?
+            Console.WriteLine("1" + ") Uso a " + escolhas3[0]);
+            Console.WriteLine("2" + ") " + escolhas3[1]);
+            Console.WriteLine("3" + ") " + escolhas3[2]);
+            Console.WriteLine("4" + ") Uso " + escolhas3[3]);
 
             choices3 = Convert.ToString(Console.ReadLine());
 
@@ -2038,7 +3821,21 @@ static void Main(string[] args)
                 Console.WriteLine("Você se livra dos goblins");
 
                 //Caminho 2.2
-                Cam22();
+                string[] escolhas5 = new string[4];
+
+                escolhas5[0] = "arco e flecha";
+                escolhas5[1] = "Fujo";
+                escolhas5[2] = "espada/escudo";
+                escolhas5[3] = "Evito o urso";
+
+                Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
+                Console.WriteLine("O que você faz?");
+
+                //O que o player faz?
+                Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
+                Console.WriteLine("2" + ") " + escolhas5[1]);
+                Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
+                Console.WriteLine("4" + ") " + escolhas5[3]);
 
                 string choices5 = Convert.ToString(Console.ReadLine());
 
@@ -2047,7 +3844,21 @@ static void Main(string[] args)
                     Console.WriteLine("O urso acaba morrendo (de novo) e voce recebe uma espada encantada!!");
 
                     //Caminho 3.2
-                    Cam32();
+                    string[] escolhas7 = new string[4];
+
+                    escolhas7[0] = "espada encantada";
+                    escolhas7[1] = "espada normal";
+                    escolhas7[2] = "Fujo";
+                    escolhas7[3] = "Morro";
+
+                    Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
+                    Console.WriteLine("O que você faz?");
+
+                    //O que o player faz?
+                    Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
+                    Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
+                    Console.WriteLine("3" + ") " + escolhas7[2]);
+                    Console.WriteLine("4" + ") " + escolhas7[3]);
 
                     string choices7 = Convert.ToString(Console.ReadLine());
 
@@ -2056,7 +3867,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -2070,7 +3895,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -2092,7 +3931,21 @@ static void Main(string[] args)
                         Console.WriteLine("Você os manda de volta para suas covas");
 
                         //Final 2
-                        Final2();
+                        string[] escolhas11 = new string[4];
+
+                        escolhas11[0] = "espada encantada";
+                        escolhas11[1] = "Me sacrifico";
+                        escolhas11[2] = "cajado do antigo Lich";
+                        escolhas11[3] = "Desisto";
+
+                        Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                        Console.WriteLine("O que você faz?");
+
+                        //O que o player faz?
+                        Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                        Console.WriteLine("2" + ") " + escolhas11[1]);
+                        Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                        Console.WriteLine("4" + ") " + escolhas11[3]);
 
                         string choices11 = Convert.ToString(Console.ReadLine());
 
@@ -2106,7 +3959,21 @@ static void Main(string[] args)
                             Console.WriteLine("Morte");
 
                             //Final 2
-                            Final2();
+                            escolhas11 = new string[4];
+
+                            escolhas11[0] = "espada encantada";
+                            escolhas11[1] = "Me sacrifico";
+                            escolhas11[2] = "cajado do antigo Lich";
+                            escolhas11[3] = "Desisto";
+
+                            Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
+                            Console.WriteLine("O que você faz?");
+
+                            //O que o player faz?
+                            Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
+                            Console.WriteLine("2" + ") " + escolhas11[1]);
+                            Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
+                            Console.WriteLine("4" + ") " + escolhas11[3]);
 
                             choices11 = Convert.ToString(Console.ReadLine());
 
@@ -2129,156 +3996,5 @@ static void Main(string[] args)
             }
         }
     }                                     //1.2
-}
 
-static void Cam11()
-{
-    string[] escolhas2 = new string[4];
 
-    escolhas2[0] = "espada e escudo";
-    escolhas2[1] = "me escondo";
-    escolhas2[2] = "fujo";
-    escolhas2[3] = "arco e flecha";
-
-    Console.WriteLine("Uma alcateia surge em sua frente...");
-    Console.WriteLine("O que você faz?");
-
-    //O que o player faz?
-    Console.WriteLine("1" + ") Uso a " + escolhas2[0]);
-    Console.WriteLine("2" + ") " + escolhas2[1]);
-    Console.WriteLine("3" + ") " + escolhas2[2]);
-    Console.WriteLine("4" + ") Uso o " + escolhas2[3]);
-}
-
-static void Cam21()
-{
-    string[] escolhas4 = new string[4];
-
-    escolhas4[0] = "espada";
-    escolhas4[1] = "mel";
-    escolhas4[2] = "fujo";
-    escolhas4[3] = "me escondo";
-
-    Console.WriteLine("Um fera que aparenta ser um urso, o espreita...");
-    Console.WriteLine("O que você faz?");
-
-    //O que o player faz?
-    Console.WriteLine("1" + ") Uso minha " + escolhas4[0]);
-    Console.WriteLine("2" + ") Uso o " + escolhas4[1]);
-    Console.WriteLine("3" + ") " + escolhas4[2]);
-    Console.WriteLine("4" + ") " + escolhas4[3]);
-}
-
-static void Cam31()
-{
-    string[] escolhas8 = new string[4];
-
-    escolhas8[0] = "urso";
-    escolhas8[1] = "espada encantada";
-    escolhas8[2] = "arco e flecha";
-    escolhas8[3] = "espada";
-
-    Console.WriteLine("Nos céus, um grifo avança em sua direção...");
-    Console.WriteLine("O que você faz?");
-
-    //O que o player faz?
-    Console.WriteLine("1" + ") Uso " + escolhas8[0]);
-    Console.WriteLine("2" + ") Uso " + escolhas8[1]);
-    Console.WriteLine("3" + ") Uso " + escolhas8[2]);
-    Console.WriteLine("4" + ") Uso " + escolhas8[3]);
-}
-
-static void Final1()
-{
-    string[] escolhas10 = new string[4];
-
-    escolhas10[0] = "espada encantada";
-    escolhas10[1] = "Ataco furtivamente";
-    escolhas10[2] = "Me escondo na pedra extremamente conveniente no meio do campo de batalha";
-    escolhas10[3] = "Imploro pela minha vidaa";
-
-    Console.WriteLine("Porém, logo atrás do grifo, o DRAGAO ANCIAO DE OLHOS NEGROS DO MAL vinha em sua direção...");
-    Console.WriteLine("O que você faz?");
-
-    //O que o player faz?
-    Console.WriteLine("1" + ") Uso a " + escolhas10[0]);
-    Console.WriteLine("2" + ") " + escolhas10[1]);
-    Console.WriteLine("3" + ") " + escolhas10[2]);
-    Console.WriteLine("4" + ") " + escolhas10[3]);
-}
-
-static void Cam12()
-{
-    string[] escolhas3 = new string[4];
-
-    escolhas3[0] = "espada/escudo";
-    escolhas3[1] = "me escondo";
-    escolhas3[2] = "fujo";
-    escolhas3[3] = "arco e flecha";
-
-    Console.WriteLine("Ao vir por aqui, você se depara com um bando de goblins...");
-    Console.WriteLine("O que você faz?");
-
-    //O que o player faz?
-    Console.WriteLine("1" + ") Uso a " + escolhas3[0]);
-    Console.WriteLine("2" + ") " + escolhas3[1]);
-    Console.WriteLine("3" + ") " + escolhas3[2]);
-    Console.WriteLine("4" + ") Uso " + escolhas3[3]);
-}
-
-static void Cam22()
-{
-    string[] escolhas5 = new string[4];
-
-    escolhas5[0] = "arco e flecha";
-    escolhas5[1] = "Fujo";
-    escolhas5[2] = "espada/escudo";
-    escolhas5[3] = "Evito o urso";
-
-    Console.WriteLine("Ao continuar sua jornada, surge um urso zumbi em sua frente...");
-    Console.WriteLine("O que você faz?");
-
-    //O que o player faz?
-    Console.WriteLine("1" + ") Uso a " + escolhas5[0]);
-    Console.WriteLine("2" + ") " + escolhas5[1]);
-    Console.WriteLine("3" + ") Uso o " + escolhas5[2]);
-    Console.WriteLine("4" + ") " + escolhas5[3]);
-}
-
-static void Cam32()
-{
-    string[] escolhas7 = new string[4];
-
-    escolhas7[0] = "espada encantada";
-    escolhas7[1] = "espada normal";
-    escolhas7[2] = "Fujo";
-    escolhas7[3] = "Morro";
-
-    Console.WriteLine("Entrando em uma catacumba, você acaba cercado por um grupo de esqueletos...");
-    Console.WriteLine("O que você faz?");
-
-    //O que o player faz?
-    Console.WriteLine("1" + ") Uso a " + escolhas7[0]);
-    Console.WriteLine("2" + ") Uso a " + escolhas7[1]);
-    Console.WriteLine("3" + ") " + escolhas7[2]);
-    Console.WriteLine("4" + ") " + escolhas7[3]);
-}
-
-static void Final2()
-{
-    string[] escolhas11 = new string[4];
-
-    escolhas11[0] = "espada encantada";
-    escolhas11[1] = "Me sacrifico";
-    escolhas11[2] = "cajado do antigo Lich";
-    escolhas11[3] = "Desisto";
-
-    Console.WriteLine("No final da catacumba, um DRAGAO ANCIAO DE OLHOS NEGROS DO MAL ZUMBI aparece para devora-lo...");
-    Console.WriteLine("O que você faz?");
-
-    //O que o player faz?
-    Console.WriteLine("1" + ") Uso a " + escolhas11[0]);
-    Console.WriteLine("2" + ") " + escolhas11[1]);
-    Console.WriteLine("3" + ") Uso o " + escolhas11[2]);
-    Console.WriteLine("4" + ") " + escolhas11[3]);
-}
